@@ -1,0 +1,230 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none r
+}
+
+
+
+
+@font-face {
+    font-family: Rubik_Light;
+    src: url("../font/Rubik/static/Rubik-Light.ttf")
+}
+
+@font-face {
+    font-family: Rubik_Variable;
+    src: url("../font/Rubik/Rubik-VariableFont_wght.ttf")
+}
+
+body {
+    background-color: hsl(226, 43%, 10%);
+    font-family: Rubik_Variable;
+}
+
+#img_1 {
+    margin-left: 30px;
+    margin-top: 45px;
+    border-radius: 80px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+}
+
+#report {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+    margin-left: 30px;
+    -webkit-text-stroke: 0.5px hsl(236, 100%, 87%);
+    report: 1px hsl(236, 100%, 87%);
+}
+
+#jeremy {
+    margin-top: -25px;
+    margin-left: 30px;
+    font-size: 59px;
+    color: white;
+    width: 10px;
+    height: 10px;
+    letter-spacing: 2.0px;
+    font-weight: lighter;
+}
+
+#box {
+    width: 350px;
+    height: 450px;
+    background-color: hsl(246, 80%, 60%);
+    border-radius: 20px;
+}
+
+#box2 {
+    border-radius: 20px;
+    width: 350px;
+    height: 680px;
+
+    /*color:hsl(236, 100%, 87%);*/
+    color: hsl(235, 45%, 61%);
+    background-color: hsl(235, 46%, 20%);
+}
+
+#cont1 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 25px;
+    letter-spacing: 1.0px;
+    margin-left: 30px;
+    color: hsl(235, 45%, 61%);
+    -webkit-text-stroke: 0.5px hsl(235, 45%, 61%);
+    titulo: 1px hsl(235, 45%, 61%);
+}
+
+#container{
+    width: 1000px;
+    height: 1440px;
+    margin: 0px auto;
+}
+
+#conteudo{
+    margin-top: 120px;
+    margin-left: -30px;
+}
+
+#trespontos{
+    margin-top: 30px;
+    margin-left: 240px;
+}
+
+
+#cont1:hover{
+    -webkit-text-stroke: 1px white;
+    titulo: 1px white;
+
+    color: white;
+    transition: 0.5s;
+
+    opacity: 100%;
+
+}
+#Work:hover, #Exercise:hover, #Play:hover, #Social:hover{
+    
+
+    background-color:  hsl(237, 45%, 24%);
+    transition: 0.5s;
+
+    opacity: 100%;
+    box-shadow: 1px 1px 15px  white;
+    
+    
+    
+ 
+
+}
+#titulo, #titulo2, #titulo3, #titulo4{
+    color: white;
+    margin-left: 30px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+
+#hrs, #hrs2, #hrs3, #hrs4{
+    margin-top: 25px;
+    color: white;
+    margin-left: 30px;
+    font-size: 59px;
+    font-family:Rubik_Light ;
+    font-weight: 900;
+}
+
+#last, #last2, #last3, #last4{
+    margin-top: 15px;
+    color: hsl(236, 100%, 87%);
+    margin-left: 30px;
+    font-size: 19px;
+    font-family:Rubik_Light ;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+#Work, #Exercise, #Play, #Social{
+    display: inline-block;
+    width: 300.3px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: hsl(235, 46%, 20%);
+    overflow: hidden;
+    
+
+
+}
+
+#Work{
+    margin-top: -30px;
+}
+
+
+#Exercise{
+    margin-top: -5px;
+
+}
+
+#Social{
+    margin-top: -50px;
+}
+
+#boximg1, #boximg2, #boximg3, #boximg4{
+    display: block;
+    width: 300.3px;
+    height: 250px;
+    border-radius: 20px; 
+    margin-left: 400px;
+
+
+
+}
+#container{
+    height: 680px;
+}
+
+/*work*/
+#boximg1 {
+    margin-left: 400px;
+    margin-top: -680px;
+  
+    background-color:hsl(15, 100%, 70%);
+
+}
+/*Exercise*/
+#boximg2{
+    margin-top: 127px;
+  
+    background-color:hsl(145, 58%, 55%);
+    
+
+}
+img{
+    margin-left: 200px;
+
+}
+/*SOCIAL*/
+#boximg3{
+    margin-left: 750px;
+    margin-top: -251px;
+    background-color:hsl(264, 64%, 52%);
+    
+
+}
+
+/*PLAY*/
+#Play{
+    margin-top: -25px;
+}
+
+#boximg4{
+    background-color: hsl(195, 74%, 62%);
+    margin-left: 750px;
+    margin-top: -628px;
+}
